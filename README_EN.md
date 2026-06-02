@@ -4,6 +4,12 @@ An open-source repository for turning sanitized contact summaries into RAG bundl
 
 [中文 README](README.md)
 
+![Privacy-preserving RAG and skill workflow](assets/privacy-workflow.png)
+
+![Sanitized output preview](assets/sanitized-output-preview.png)
+
+> Both images are public-release illustrations. The IDs, tier counts, and interface content are synthetic and do not represent real contacts or chat records.
+
 ## Overview
 
 This repository only accepts sanitized structured inputs.
@@ -43,6 +49,7 @@ distill-rag-skill render-skill-template --workspace ./demo_workspace --output ./
 
 ```text
 Distill_myself_RAG-Skill/
+├── assets/
 ├── docs/
 ├── examples/
 ├── src/distill_myself_rag_skill/
@@ -67,4 +74,3 @@ It intentionally avoids:
 - personal identity data,
 - automatic message delivery,
 - private runtime state.
-

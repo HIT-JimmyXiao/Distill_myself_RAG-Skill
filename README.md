@@ -4,6 +4,12 @@
 
 [English README](README_EN.md)
 
+![Privacy-preserving RAG and skill workflow](assets/privacy-workflow.png)
+
+![Sanitized output preview](assets/sanitized-output-preview.png)
+
+> 两张图片均为公开版示意图。效果图中的 ID、分层数量和界面内容均为合成数据，不代表任何真实联系人或聊天记录。
+
 ## Overview
 
 这个仓库只接收“去敏后的结构化输入”，不直接处理原始微信数据。
@@ -35,6 +41,9 @@
 
 ```text
 Distill_myself_RAG-Skill/
+├── assets/
+│   ├── privacy-workflow.png          # 上下游隐私边界流程图
+│   └── sanitized-output-preview.png  # 合成效果预览
 ├── docs/
 │   ├── architecture.md        # 两仓库协作架构
 │   ├── privacy_boundary.md    # 公开版边界
