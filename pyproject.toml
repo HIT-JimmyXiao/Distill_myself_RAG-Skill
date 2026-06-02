@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "distill-myself-rag-skill"
+version = "0.1.0"
+description = "Sanitized pipeline for building personal RAG bundles and Codex skill templates from structured contact summaries."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+  { name = "HIT_Jimmy" }
+]
+dependencies = []
+
+[project.scripts]
+distill-rag-skill = "distill_myself_rag_skill.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

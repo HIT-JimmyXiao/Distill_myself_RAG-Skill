@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+build/
+dist/
+*.egg-info/
+demo_workspace/
+workspace/
+outputs/private/
+runtime/
+indexes/
+*.db
+*.sqlite
+*.jsonl

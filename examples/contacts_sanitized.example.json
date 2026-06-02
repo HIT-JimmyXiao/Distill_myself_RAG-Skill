@@ -1,0 +1,32 @@
+{
+  "contacts": [
+    {
+      "public_contact_id": "pvt_alpha001",
+      "tier": "A",
+      "message_count": 730,
+      "topic_tags": ["research", "daily"],
+      "relation_tags": ["close_peer"],
+      "style_notes": ["direct", "short_replies"],
+      "tone_hint": "casual_direct"
+    },
+    {
+      "public_contact_id": "pvt_beta002",
+      "tier": "B",
+      "message_count": 240,
+      "topic_tags": ["project", "logistics"],
+      "relation_tags": ["collaborator"],
+      "style_notes": ["clear_tasks", "polite"],
+      "tone_hint": "task_oriented"
+    },
+    {
+      "public_contact_id": "grp_gamma003",
+      "tier": "Reference",
+      "message_count": 120,
+      "topic_tags": ["reference_only"],
+      "relation_tags": ["group_reference"],
+      "style_notes": ["do_not_reply"],
+      "tone_hint": "reference_only"
+    }
+  ]
+}
+
